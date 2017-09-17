@@ -24,6 +24,7 @@ VOLUME /var/opt/mssql
 
 USER developer
 
+CMD /usr/bin/echo "test !!!<2
 CMD echo "start: /opt/mssql/bin/sqlservr --accept-eula"
-CMD /opt/mssql/bin/sqlservr --accept-eula
-#CMD /usr/bin/sleep 1000
+#CMD /opt/mssql/bin/sqlservr --accept-eula
+CMD /usr/bin/sleep 1000
